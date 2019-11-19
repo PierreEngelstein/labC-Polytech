@@ -4,6 +4,7 @@ TD0/*
 !TD0/srcEnsemble/
 !TD0/makefile
 
+.vscode/
 TD1/build/
 TD2/build/
 TD3/build/

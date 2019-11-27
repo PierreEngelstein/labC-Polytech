@@ -15,7 +15,6 @@ namespace td3
         }
         Memory::Memory(std::vector<Carte> vect)
         {
-                
                 _cartes = std::vector<std::pair<Carte, bool>>(2*vect.size());
                 for(int i = 0; i < vect.size(); i++)
                 {

@@ -2,19 +2,16 @@
 #include <sstream>
 
 using namespace std;
-Point::Point(double X,double Y, std::string nom) : version_dyn::Point(X, Y)
+Point::Point(double X,double Y, std::string nom) : version_dyn::Point(X, Y), _nom(nom)
 {
-        _nom = nom;
 }
 
-Point::Point(const Point & P) : version_dyn::Point(P)
+Point::Point(const Point & P) : version_dyn::Point(P), _nom(P._nom)
 {
-        _nom = P._nom;
 }
 
-Point::Point(std::string str) : version_dyn::Point()
+Point::Point(std::string str) : version_dyn::Point(), _nom(str)
 {
-        _nom = str;
 }
 
 Point & Point::operator=(const Point & p)

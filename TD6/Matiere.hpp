@@ -6,7 +6,7 @@ namespace notes
         class Matiere : public Note
         {
                 public:
-                        Matiere(std::string nom, float val, unsigned coef=1);
+                        Matiere(const std::string &nom, float val, unsigned coef=1);
                         ~Matiere();
                         std::string GetNom() const;
                         std::string ToString() const;

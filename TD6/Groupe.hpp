@@ -6,7 +6,7 @@ namespace notes
         class Groupe : public ANote
         {
                 public:
-                        Groupe(std::string nom);
+                        Groupe(const std::string &nom);
                         ~Groupe();
                         
                         std::string ToString() const;

@@ -2,7 +2,7 @@
 
 namespace notes
 {
-        Matiere::Matiere(std::string nom, float val, unsigned coef) : Note(val, coef), _nomr(nom)
+        Matiere::Matiere(const std::string &nom, float val, unsigned coef) : Note(val, coef), _nomr(nom)
         {
         }
 

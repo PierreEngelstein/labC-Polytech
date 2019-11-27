@@ -2,7 +2,7 @@
 
 namespace notes
 {
-        Groupe::Groupe(std::string nom) : _nomr(nom)
+        Groupe::Groupe(const std::string &nom) : _nomr(nom)
         {
 
         }
